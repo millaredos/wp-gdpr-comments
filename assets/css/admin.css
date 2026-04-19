@@ -1,0 +1,237 @@
+/* Millaredos GDPR Admin CSS */
+
+/* Header / Banner */
+.mgc-header {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    /* Align with WP margin */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c3c4c7;
+    border-bottom: none;
+    /* Merged with tabs? No, tabs usually below h2. Let's keep it separate card style */
+    border-radius: 4px 4px 0 0;
+    /* Top rounded */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+/* If using tabs below, banner usually is separate. Let's make it stand out */
+.mgc-header {
+    border-bottom: 1px solid #c3c4c7;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.mgc-brand h2 {
+    margin: 0;
+    color: #1d2327;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mgc-brand p {
+    margin: 5px 0 0;
+    color: #646970;
+}
+
+.mgc-cta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mgc-cta p {
+    margin: 0;
+    font-weight: 500;
+    color: #2271b1;
+}
+
+/* Fix Tab Wrapper Margin if Header is present */
+.nav-tab-wrapper {
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+}
+
+/* Stats Dashboard */
+.mgc-stats-dashboard .mgc-kpis {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.mgc-stats-dashboard .mgc-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    border-radius: 4px;
+}
+
+.mgc-stats-dashboard .kpi {
+    flex: 1;
+    text-align: center;
+}
+
+.mgc-stats-dashboard .kpi h3 {
+    margin: 0;
+    font-size: 13px;
+    color: #646970;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.mgc-stats-dashboard .kpi .number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1d2327;
+    margin: 10px 0;
+}
+
+.mgc-stats-dashboard .kpi .sub {
+    font-size: 12px;
+    color: #a7aaad;
+}
+
+.mgc-stats-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* Chart wider than list */
+    gap: 20px;
+}
+
+@media (max-width: 782px) {
+    .mgc-stats-dashboard .mgc-kpis {
+        flex-direction: column;
+    }
+
+    .mgc-stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Bar Chart (CSS Only) */
+.mgc-bar-chart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 200px;
+    padding-top: 20px;
+    border-bottom: 1px solid #dcdcde;
+}
+
+.mgc-bar-chart .bar-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    margin: 0 5px;
+}
+
+.mgc-bar-chart .bar {
+    width: 60%;
+    background-color: #2271b1;
+    /* WP Blue */
+    border-radius: 3px 3px 0 0;
+    min-height: 2px;
+    transition: background-color 0.2s;
+    position: relative;
+}
+
+.mgc-bar-chart .bar:hover {
+    background-color: #135e96;
+}
+
+.mgc-bar-chart .bar[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1d2327;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    z-index: 10;
+}
+
+.mgc-bar-chart .label {
+    margin-top: 10px;
+    font-size: 11px;
+    color: #646970;
+}
+
+/* Settings Grid (v0.5.8 Fix) */
+.mgc-settings-container {
+    display: grid;
+    grid-template-columns: 60% 38%;
+    gap: 2%;
+    align-items: start;
+}
+
+.mgc-settings-main {
+    min-width: 0;
+}
+
+/* Ensure form table fits */
+.mgc-settings-main .form-table {
+    width: 100%;
+}
+
+.mgc-settings-main .form-table th {
+    width: 200px;
+}
+
+.mgc-card.maintenance-card {
+    border-top: 3px solid #d63638;
+    margin-top: 0;
+}
+
+.mgc-maintenance-option {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.mgc-maintenance-option:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mgc-maintenance-option.danger .warning {
+    color: #d63638;
+}
+
+/* Badges for Logs */
+.mgc-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    background: #f0f0f1;
+    color: #50575e;
+}
+
+.mgc-badge-success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.mgc-badge-warning {
+    background: #fef9c3;
+    color: #854d0e;
+}
+
+@media (max-width: 960px) {
+    .mgc-settings-container {
+        grid-template-columns: 1fr;
+    }
+}
