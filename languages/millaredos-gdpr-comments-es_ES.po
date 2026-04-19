@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Millaredos GDPR Comments 0.3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-10 12:00+0000\n"
+"PO-Revision-Date: 2025-12-10 12:00+0000\n"
+"Last-Translator: Millaredos <borja@millaredos.com>\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Handcrafted\n"
+
+#: includes/class-millaredos-gdpr-comments-public.php:34
+msgid "Please, accept the Privacy Policy to continue."
+msgstr "Por favor, acepta la Política de Privacidad para continuar."
+
+#: includes/class-millaredos-gdpr-comments-public.php:43
+msgid "Responsible not defined"
+msgstr "Responsable no definido"
+
+#: includes/class-millaredos-gdpr-comments-public.php:44
+msgid "Manage comments"
+msgstr "Gestionar comentarios"
+
+#: includes/class-millaredos-gdpr-comments-public.php:45
+msgid "Consent of the interested party"
+msgstr "Consentimiento del interesado"
+
+#: includes/class-millaredos-gdpr-comments-public.php:48
+msgid "a service provider"
+msgstr "un proveedor de servicios"
+
+#: includes/class-millaredos-gdpr-comments-public.php:50
+#, php-format
+msgid "No data is ceded or communicated to third parties to provide this service. The Owner has contracted the web hosting services to %s who acts as a data processor."
+msgstr "No se ceden datos salvo obligación legal. El Responsable ha contratado el servicio de alojamiento a %s, quien actúa como encargado del tratamiento."
+
+#: includes/class-millaredos-gdpr-comments-public.php:56
+msgid "Access, rectify and delete data"
+msgstr "Acceder, rectificar y suprimir los datos"
+
+#: includes/class-millaredos-gdpr-comments-public.php:122
+msgid "Security error: Invalid Nonce. Please reload the page."
+msgstr "Error de seguridad: Nonce inválido. Por favor recarga la página."
+
+#: includes/class-millaredos-gdpr-comments-public.php:127
+msgid "You must accept the Privacy Policy to publish a comment."
+msgstr "Debes aceptar la Política de Privacidad para publicar un comentario."
+
+#: includes/class-millaredos-gdpr-comments-public.php:68
+#, php-format
+msgid "I have read and accept the <a href=\"%s\" target=\"_blank\">Privacy Policy</a>."
+msgstr "He leído y acepto la <a href=\"%s\" target=\"_blank\">Política de Privacidad</a>."
+
+#: includes/class-millaredos-gdpr-comments-public.php:74
+msgid "Basic information on data protection"
+msgstr "Información básica sobre protección de datos"
+
+#: includes/class-millaredos-gdpr-comments-public.php:77
+#: includes/class-millaredos-gdpr-comments-admin.php:64
+msgid "Responsible"
+msgstr "Responsable"
+
+#: includes/class-millaredos-gdpr-comments-public.php:81
+#: includes/class-millaredos-gdpr-comments-admin.php:65
+msgid "Purpose"
+msgstr "Finalidad"
+
+#: includes/class-millaredos-gdpr-comments-public.php:85
+#: includes/class-millaredos-gdpr-comments-admin.php:66
+msgid "Legitimation"
+msgstr "Legitimación"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:67
+msgid "Hosting Provider"
+msgstr "Proveedor de Hosting"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:67
+msgid "Ex: SiteGround, AWS..."
+msgstr "Ej: SiteGround, AWS..."
+
+#: includes/class-millaredos-gdpr-comments-public.php:89
+#: includes/class-millaredos-gdpr-comments-admin.php:68
+msgid "Recipients"
+msgstr "Destinatarios"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:68
+msgid "Leave empty to use auto-generated text with Hosting Provider."
+msgstr "Déjalo vacío para usar el texto generado automáticamente con el Proveedor de Hosting."
+
+#: includes/class-millaredos-gdpr-comments-public.php:93
+#: includes/class-millaredos-gdpr-comments-admin.php:69
+msgid "Rights"
+msgstr "Derechos"
+
+#: includes/class-millaredos-gdpr-comments-public.php:97
+msgid "Additional Info"
+msgstr "Info Adicional"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:70
+msgid "Privacy Policy Link"
+msgstr "Enlace Política Privacidad"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:71
+msgid "\"More Info\" Link (Optional)"
+msgstr "Enlace \"Más Info\" (Opcional)"
+
+#: includes/class-millaredos-gdpr-comments-public.php:99
+msgid "Privacy Policy"
+msgstr "Política de Privacidad"
+
+#: includes/class-millaredos-gdpr-comments-public.php:101
+msgid "More information"
+msgstr "Más información"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:58
+msgid "Basic Data Protection Information"
+msgstr "Información Básica de Protección de Datos"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:75
+msgid "Configure here the texts that will appear in the first layer of information in the comment form."
+msgstr "Configura aquí los textos que aparecerán en la primera capa de información en el formulario de comentarios."
+
+#: includes/class-millaredos-gdpr-comments-admin.php:76
+msgid "Legal Note:"
+msgstr "Nota Legal:"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:76
+msgid "This plugin is a technical tool developed to facilitate regulatory compliance. However, its installation does not automatically guarantee the legality of your website. It does NOT constitute legal advice. We recommend consulting with a specialist to validate your texts and procedures."
+msgstr "Este plugin es una herramienta técnica para facilitar el cumplimiento normativo. Sin embargo, su instalación no garantiza automáticamente la legalidad de su sitio web. NO constituye asesoramiento legal. Recomendamos consultar con un especialista para validar sus textos y procedimientos."
+
+#: includes/class-millaredos-gdpr-comments-admin.php:106
+msgid "Do you need professional help with your WordPress?"
+msgstr "¿Necesitas ayuda profesional con tu WordPress?"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:107
+msgid "Visit millaredos.com"
+msgstr "Visitar millaredos.com"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:113
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:114
+msgid "Audit & Fingerprints"
+msgstr "Auditoría"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:115
+msgid "Stats"
+msgstr "Estadísticas"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:116
+msgid "Logs"
+msgstr "Registros"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:131
+msgid "Coming soon..."
+msgstr "Próximamente..."
+
+#: includes/class-millaredos-gdpr-comments-admin.php:163
+msgid "Consent Audit (Last 50)"
+msgstr "Auditoría de Consentimiento (Últimos 50)"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:164
+msgid "This table shows the cryptographic evidence of policy acceptance."
+msgstr "Esta tabla muestra la evidencia criptográfica de aceptación de la política."
+
+#: includes/class-millaredos-gdpr-comments-admin.php:165
+msgid "This technical record serves as integrity evidence (\"Accountability\"). In case of legal dispute, provide these hashes to your IT expert or auditor."
+msgstr "Este registro técnico sirve como evidencia de integridad (\"Accountability\"). En caso de disputa legal, proporcione estos hashes a su perito informático o auditor."
+
+#: includes/class-millaredos-gdpr-comments-admin.php:167
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:167
+msgid "Author"
+msgstr "Autor"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:167
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:167
+msgid "IP (Anon)"
+msgstr "IP (Anon)"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:167
+msgid "Timestamp (Meta)"
+msgstr "Timestamp"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:167
+msgid "Integrity Fingerprint (SHA-256)"
+msgstr "Huella de Integridad (SHA-256)"
+
+#: includes/class-millaredos-gdpr-comments-admin.php:184
+msgid "No registered consents found yet."
+msgstr "No se han encontrado consentimientos registrados todavía."
